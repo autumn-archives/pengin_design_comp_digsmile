@@ -19,12 +19,14 @@
     <div class="image-wrap">
       <div class="black-rect"></div>
       <div class="black-mask"></div>  
-      <img class="header-img" src="./img/photo-of-people-looking-on-tablet-3182835.png">
+      <picture class="header-img">
+        <source srcset="./img/photo-of-people-looking-on-tablet-3182835.png" media="(min-width: 767.98px)">
+        <source srcset="./img/photo-of-people-looking-on-tablet-3182835_T.png" media="(min-width: 374.98px)">
+        <img src="./img/photo-of-people-looking-on-tablet-3182835_S.png" alt="サンプル画像">
+      </picture>
       <div class="header-logo-wrap"><img class="header-logo" src="./img/logo_icon.svg">DIGSMILE<span class="logo-sub">INC.</span></div>
     </div>
-    
-    <div class="black-square">
-      <div class="menu-hamb">
+    <div class="menu-hamb">
         <div class="hamb-icon-wrap">
           <div class="hamb-icon up first"></div>
           <div class="hamb-icon mid first"></div>
@@ -32,6 +34,7 @@
         </div>
         <span class="hamb-txt">MENU</span>
       </div>
+    <div class="black-square">
       <h1>
         <span class="span-l">CONTACT</span>
         <span class="span-s">お問い合わせ</span>
