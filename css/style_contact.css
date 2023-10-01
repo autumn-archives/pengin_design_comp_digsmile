@@ -180,6 +180,44 @@ hamburger-menu
   margin-right: 0.4375rem;
   border-radius: 0.3rem;
 }
+.hamb-icon.up {
+  transform: translateY(0);
+  transition-duration: 0.5s;
+  transition-delay: 0.3s;
+}
+.hamb-icon.mid {
+  transform: scale(1);
+  transition-duration: 0.5s;
+}
+.hamb-icon.bottom {
+  transform: translateY(0);
+  transition-duration: 0.5s;
+  transition-delay: 0.3s;
+}
+
+
+/*↓hamburger-animation-active↓*/
+
+
+.hamb-icon.up.icon-actived {
+  transform: translateY(0.625rem);
+  transition-duration: 0.5s;
+  transition-delay: 0.3s;
+}
+.hamb-icon.mid.icon-actived{
+  transform: scaleX(0);
+  transition-duration: 0.5s;
+}
+.hamb-icon.bottom.icon-actived {
+  transform: translateY(-0.625rem);
+  transition-duration: 0.5s;
+  transition-delay: 0.3s;
+}
+
+
+/*↑hamburger-animation-active↑*/
+
+
 .hamb-txt {
   width: fit-content;
   font-size: 0.625rem;
@@ -187,7 +225,7 @@ hamburger-menu
   letter-spacing: 0.005em;
 }
 
-.hamb-click-bg {
+.hamb-click-bg {/*hamburger-menu-clicked-background-gray*/
   position: absolute;
   display: none;
   width: 100vw;
@@ -296,6 +334,25 @@ header-right-black-square
   margin-left: -9.5rem;
   margin-bottom: 1rem;
   width: fit-content;
+}
+/*=========================
+clicked-animation
+=========================*/
+.hamb-actived{
+  position: fixed;
+  display: flex;
+}
+.nav-actived {
+  z-index: 101;
+  transform: translateX(0);
+  transition: all 0.5s ease-in;
+}
+/*animation-initial-state*/
+.header-nav.first {
+  transition: none;
+}
+.hamb-icon.first {
+  transition: none;
 }
 /*######################################################################
 
