@@ -297,3 +297,136 @@ header-right-black-square
   margin-bottom: 1rem;
   width: fit-content;
 }
+/*######################################################################
+
+main
+
+######################################################################*/
+
+
+/*######################################################################
+
+contact-section
+
+######################################################################*/
+
+.contact-sec {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.8125rem;
+}
+.contact-sec-wrap {
+  width: 92.00490692836951%;
+}
+.contact-sec .p-wrap {
+  margin-bottom: 3.4375rem;
+}
+.contact-sec-wrap span {
+  display: inline-block;
+  width: fit-content;
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
+  margin-left: 0.5rem;
+  top: 1rem;
+  font-size: 0.75rem;
+  color: #ffffff;
+  background-color: #333333;
+  vertical-align: 0.2rem;
+}
+/*=========================
+radio-button
+=========================*/
+
+.c-radio {
+  display: flex;
+  width: fit-content;
+  justify-content: space-between;
+  margin-bottom: 2.4375rem;
+  flex-direction: column;
+}
+div.p-wrap.c-type {
+ margin-bottom: 1rem;
+}
+.radio-wrap {
+  width: fit-content;
+}
+.c-radio input{
+  width: 0.75rem;
+  margin-left: 0.875rem;
+  margin-right: 0.875rem;
+  accent-color: #333333;
+}
+.c-ratio label {
+  width: fit-content;
+}
+/*=========================
+privacy-policy
+=========================*/
+.privacy-wrap {
+  width: 100%;
+  height: 13.125rem;
+  border: 0.0625rem solid #333333;
+  overflow-y: scroll;
+}
+.s-form{ 
+  height: 2.5625rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2.8125rem;
+}
+.l-form {
+  height: 13.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2.8125rem;
+}
+.privacy-txt {
+  margin-bottom: 1rem;
+}
+.privacy-txt p {
+  font-family: "Noto Sans JP";
+}
+.privacy-txt p:first-child {
+  letter-spacing: 0.004em;
+}
+.chek-bx-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 12.125rem;
+}
+.chek-bx {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.chek-bx-wrap label {
+  width: fit-content;
+}
+.contact-txt p {
+  line-height:  2rem;
+}
+/*######################################################################
+
+footer
+
+######################################################################*/
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 3.125rem;
+  background-color: #707070;
+  justify-content: center;
+}
+footer p {
+  width: fit-content;
+}
+footer span {
+  color: #ffffff;
+  text-align: center;
+  line-height: 3.125rem;
+  vertical-align: middle;
+  font-size: 0.625rem;
+  letter-spacing: 0.015em;
+}
