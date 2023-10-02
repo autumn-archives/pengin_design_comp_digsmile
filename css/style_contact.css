@@ -265,11 +265,12 @@ header-image-wrap
 }
 .black-mask {/*header-image-mask*/
   position: absolute;
-  width: 17.9375rem;
-  height: 16.875rem;
+  width: 100%;
+  height: 100%;
   background-color: #707070;
   opacity: 0.5412;
   z-index: 1;
+
 }
 .header-img {
   position: absolute;
@@ -278,7 +279,9 @@ header-image-wrap
   z-index: 0;
 }
 .header-img source,.header-img img {
+  width: 100%;
   height: 100%;
+  aspect-ratio: 280 / 273;
 }
 .black-rect {/*header-decoration-black-rect*/
   position: absolute;
