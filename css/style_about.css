@@ -274,7 +274,6 @@ header-image-wrap
   background-color: #707070;
   opacity: 0.5412;
   z-index: 1;
-
 }
 .header-img {
   position: absolute;
@@ -552,4 +551,273 @@ footer span {
   line-height: 3.125rem;
   vertical-align: middle;
   font-size: 0.625rem;
+}
+@media screen and (min-width:336px) {
+
+  /*######################################################################
+
+vision-section
+
+######################################################################*/
+.vision-sec {
+  display: flex;
+  width: 100%;
+  
+  margin-top: 5.6875rem;
+  justify-content: center;
+}
+.vision-wrap {
+  display: flex;
+  width: 21.0625rem;
+  height: 37.9375rem;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.vision-wrap h2 {
+  display: inline-block;
+  text-align: left;
+  letter-spacing: 0.125rem;
+  line-height: 5.875rem;
+}
+.vision-wrap h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.vision-wrap p {
+  line-height: 2rem;
+}
+
+.vision-sec .vision-sec-wrap p {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.875rem;
+  margin-left: 1.875rem;
+}
+}
+/*######################################################################
+========================================================================
+
+Mobile 374.98~767.98px
+
+========================================================================
+######################################################################*/
+
+@media screen and (min-width:374.98px) {
+h1 {
+  letter-spacing: 0.063em;
+}
+h3 {
+  letter-spacing: 0.005em;
+}
+
+.header{
+  height: 38.4375rem;
+}
+/*=========================
+header-logo
+=========================*/
+.header-logo-wrap {
+  margin-top: 1.865rem;
+  margin-left: 1.875rem;
+  font-size: 1.133125rem;
+  font-weight: 800;
+}
+.header-logo {
+  margin-top: 0.15rem;
+}
+.logo-sub {
+  margin-top: 0.35rem;
+  margin-left: 0.3875rem;
+}
+/*=========================
+hamburger-menu
+=========================*/
+.menu-hamb {
+  height: 0.6875rem;
+  margin-top: 2.15625rem;
+  margin-right: 2rem;
+}
+/*=========================
+header-image-wrap
+=========================*/
+.image-wrap {
+  width: 76.53194263363756vw;
+  height: 33.0625rem;
+}
+.black-mask {/*header-image-mask*/
+  width: 76.53194263363756vw;
+  height: 33.0625rem;
+}
+.header-img {
+  width: 76.53194263363756vw;
+  height: 33.0625rem;
+}
+.black-rect {/*header-decoration-black-rect*/
+  width: 10rem;
+  height: 2.25rem;
+}
+/*=========================
+header-right-black-square
+=========================*/
+.black-square {
+  display: flex;
+  justify-content: flex-start;
+  width: 53.071895424836605vw;
+  height: 38.4375rem;
+  align-items: center;
+}
+.black-square h1{
+  flex-direction: column;
+  align-items: baseline;
+  width: 16.875rem;
+  height: max-content;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 3.65625rem;
+}
+.black-square h1 .span-s {
+  margin-left: 0;
+}
+.black-square h1 .span-l {
+  display: inline-block;
+  font-size: 6.77100966170994vw;
+  letter-spacing: 0.20475rem;
+}
+.vision-wrap {
+  display: flex;
+  width: 25.9375rem;
+  flex-direction: column;
+}
+.vision-wrap h2 {
+  display: inline-block;
+  text-align: left;
+  letter-spacing: 0.125rem;
+  line-height: 5.875rem;
+}
+.vision-wrap h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.vision-wrap p {
+  line-height: 2rem;
+}
+.vision-sec .vision-sec-wrap p {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 1rem;
+  margin-left: 1.875rem;
+}
+.ceo-sec {
+  display: flex;
+  width: 100%;
+  height: 56.25rem;
+  margin-top: 5.3125rem;
+  justify-content: center;
+}
+.ceo-sec-wrap {
+  display: flex;
+  width: 92.18990077866611%;
+  height: 31.5rem;
+  margin-top: 5.3125rem;
+  margin-bottom: 5.5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+/*=========================
+ceo-image
+=========================*/
+.ceo-img-wrap {
+  width: 20rem;
+  height: 13.5rem;
+  margin-left: 0;
+  z-index: 2;
+}
+.ceo-img {
+  height: 13.5rem;
+}
+.gray-mask {
+  height: 13.5rem;
+}
+/*=========================
+ceo-text
+=========================*/
+.ceo-txt-wrap {
+  display: flex;
+  width: 30.875rem;
+  height: 42.9375rem;
+  margin-top: 8.1875rem;
+  margin-left: -20.625rem;
+  background-color: #f0f0f0;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1;
+}
+.ceo-txt {
+  width: 25.9375rem;
+  height: 26.9375rem;
+  margin-top: 6.75rem;
+}
+.ceo-txt h2 {
+  margin-top: 0;
+  line-height: 2.4375rem;
+  letter-spacing: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+/*######################################################################
+
+company-section
+
+######################################################################*/
+.company-sec {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  margin-top: 5.6875rem;
+}
+.company-sec-wrap {
+  width: 92.18990077866611109%;
+}
+.company-sec-wrap .generic-h2 {
+  display: inline-block;
+  border-bottom: solid #DDDDDD;
+  line-height: 5.875rem;
+}
+/*######################################################################
+
+company-dl
+
+######################################################################*/
+.company-sec-wrap dl{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  letter-spacing: 0.004em;
+}
+.company-sec-wrap .row {
+  vertical-align: middle;
+  border-bottom: solid #dddddd;
+
+  
+}
+.company-sec-wrap .row dt{
+  display: flex;
+  width: 9rem;
+  height: 3.5rem;
+  align-items: center;
+}
+.ggl_map_emb {
+  height: 14.375rem;
+  margin-top: 2.5rem;
+}
 }
