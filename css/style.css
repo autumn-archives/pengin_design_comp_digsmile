@@ -339,3 +339,231 @@ clicked-animation
 .hamb-icon.first {
   transition: none;
 }
+/*######################################################################
+
+main
+
+######################################################################*/
+
+
+/*######################################################################
+
+about-section
+
+######################################################################*/
+
+
+.about-sec {
+  display: flex;
+  width: 100%;
+  height: 37.805625rem;
+  margin-top: 6.118125rem;
+  justify-content: center;
+}
+.about-sec .about-sec-wrap {
+  display: flex;
+  width: 100%;
+  height: 33.8125rem;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/skyline-4582510_1920.png);
+}
+.about-us-wrap {
+  display: flex;
+  width: 100%;
+  height: 27.5625rem;
+  background-color: #ffffff;
+  opacity: 94.9%;
+  flex-direction: column;
+  align-items: center;
+}
+.about-sec .about-sec-wrap h2 {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  font-family: 'Inter';
+  font-size: 1.75rem;
+  line-height: 5.875rem;
+}
+.about-sec .about-txt {
+  display: block;
+  width: 92.00490692%;
+  height: 13.1875rem;
+}
+.about-sec .about-sec-wrap p {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: inherit;
+  overflow-wrap: break-word;
+}
+/*=========================
+readmore-button
+=========================*/
+.about-sec .readmore-btn {
+  width: 10rem;
+  height: 2.25rem;
+  margin-top: 2.1875rem;
+  margin-left: 8.00042%;
+  background-color: #000000;
+}
+.about-sec .readmore-btn a{
+  display: flex;
+  width: 100%;
+  height: 2.25rem;
+  align-items: center;
+}
+.about-sec .readmore-btn span {
+  display: inline-block;
+  height: 1rem;
+  color: #ffffff;
+  font-size: 0.75rem;
+  text-align: center;
+}
+/*######################################################################
+
+worcul-section
+
+######################################################################*/
+.worcul-sec {
+  display: flex;
+  width: 100%;
+  height: 62.8125rem;
+  margin-top: -8rem;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+.worcul-sec-wrap {
+  display: flex;
+  width: 92.0049069283%;
+  height: 31.5rem;
+  margin-top: 6.75rem;
+  flex-direction: column;
+}
+.worcul-sec-wrap a {
+  width: 100%;
+  height: 23.8125rem;
+}
+.worcul-flex {
+  width: 100%;
+  height: 100%;
+}
+.worcul-flex a {
+  width: 100%;
+  height: 100%;
+}
+.worcul-sec .generic-h2 {
+  font-family: 'Inter';
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1.9375rem;
+}
+a.mgin-b {
+  margin-bottom: 4rem;
+}
+.worcul-flex p {
+  font-family: 'Inter';
+  font-size: 1rem;
+  line-height: 5.25rem;
+  vertical-align: middle;
+}
+/*=========================
+l-topic-sec
+=========================*/
+.l-topic-sec {
+  display: flex;
+  width: 100%;
+  height: 25.5rem;
+  justify-content: center;
+}
+.l-topic-sec-wrap {
+  display: flex;
+  width: 92.0049069283%;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 2.5rem;
+}
+.l-topic-sec .l-topic-sec-wrap h2 {
+  display: inline-block;
+  width: 100%;
+  font-family: 'Inter';
+  font-size: 1.75rem;
+  margin-bottom: 1.8125rem;
+}
+.l-topic-flex {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.l-topic-flex a{
+  width: 100%;
+}
+.l-topic-flex span {
+  display: inline-block;
+  font-size: 0.625rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.6875rem;
+}
+.l-topic-flex article {
+  font-size: 0.75rem;
+  margin-bottom: 0.6875rem;
+}
+.l-topic-flex .article-line {
+  
+  border-bottom:1px solid #DDDDDD;
+}
+/*######################################################################
+
+contact-section
+
+######################################################################*/
+.contact-sec {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+.contact-sec-wrap {
+  display: flex;
+  width: 92.0049069283%;
+  height: 38.875rem;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+}
+.contact-txt {
+  width: 100%;
+}
+.contact-img {
+  width: 100%;
+  height: 14.5rem;
+  margin-top: 2.5rem;
+}
+.contact-txt h2 {
+  vertical-align: middle;
+  line-height: 5.875rem;
+}
+.contact-txt p {
+  line-height:  2rem;
+}
+/*######################################################################
+
+footer
+
+######################################################################*/
+footer {
+  display: flex;
+  width: 100%;
+  height: 3.125rem;
+  background-color: #707070;
+  justify-content: center;
+  align-items: center;
+}
+footer span {
+  display: inline-block;
+  width: fit-content;
+  color: #ffffff;
+  line-height: 0.5rem;
+  vertical-align: middle;
+  font-size: 0.625rem;
+}
