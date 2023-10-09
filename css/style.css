@@ -892,3 +892,416 @@ contact-section
   line-height:  2em;
   overflow-wrap: break-word;
 }
+}
+
+@media screen and (min-width: 563px){
+  /*######################################################################
+
+about-section
+
+######################################################################*/
+
+.about-us-wrap {
+  height: 22.4375rem;
+}
+.worcul-sec {
+  height: 77.625rem;
+}
+.worcul-flex p {
+  font-size: 1rem;
+}
+}
+/*######################################################################
+========================================================================
+
+DeskTop 767.98px~
+
+========================================================================
+######################################################################*/
+@media screen and (min-width: 767.98px) {
+/*######################################################################
+
+header
+
+######################################################################*/
+.header {
+  height: 47.89875rem;
+}
+/*=========================
+header-logo
+=========================*/
+.header-logo-wrap {
+  margin-top: 1.14rem;
+  margin-left: 3.365rem;
+  font-size: 2.125rem;
+  font-weight: 400;
+}
+.header-logo {
+  width: 1.8rem;
+  height: 2rem;
+  margin-top: 0.6rem;
+}
+.logo-sub {
+  font-size: 1.375rem;
+  margin-top: 0.85rem;
+  margin-left: 1.25rem;
+  font-weight: 400;
+}
+/*=========================
+header-navi
+=========================*/
+.header-nav {
+  right: 0;
+  left: auto;
+  width: 48.75rem;
+  height: 56.25rem;
+  transform-origin: center;
+}
+.header-list {
+  margin-top: 6.25rem;
+}
+.header-item {
+  font-size: 1.25rem;
+  margin-bottom: 2.3125rem;
+}
+/*=========================
+navi-image
+=========================*/
+.nav-img {
+  width: 2.634375rem;
+  height: 2.8125rem;
+  margin-bottom: 2.3125rem;
+}
+/*=========================
+hamburger-menu
+=========================*/
+.menu-hamb {
+  height: 0.6875rem;
+  margin-top: 2.25rem;
+  margin-right: 3.75rem;
+  font-size: 0.625rem;
+}
+.hamb-icon {
+  width: 1.375rem;
+  height: 0.12rem;
+  margin-top: 0.2rem;
+  margin-right: 0.4375rem;
+}
+.hamb-txt {
+  font-size: 0.625rem;
+}
+/*=========================
+header-image-wrap
+=========================*/
+.image-wrap {
+  width: 80.83333333333333vw;
+  height: 47.89875rem;
+}
+.black-mask {/*header-image-mask*/
+  width: 76.38888888888889vw;
+  height: 40rem;
+}
+.header-img {
+  width:80.83333333333333vw;
+  height: 47.89875rem;
+}
+.black-rect {/*header-decoration-black-rect*/
+  width: 10rem;
+  height: 2.25rem;
+}
+/*=========================
+header-right-black-square
+=========================*/
+.black-square {
+  width: 54.166666666666664vw;
+  height: 46.25rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.black-square h1{
+  width: 20.48611111111111vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: normal;
+  margin-top: 0;
+  margin-right: -5rem;
+  letter-spacing: 0;
+}
+.black-square h1 .span-s {
+  width: max-content;
+  font-size: 1rem;
+}
+
+.black-square h1 .span-l {
+  height: fit-content;
+  margin-left: 0;
+  font-size: 5vw;
+  letter-spacing: 0;
+  width: max-content;
+  margin-bottom: 2.083333333333333vw;
+  line-height: auto;
+}
+.black-square h1 .span-s .l-space {
+  width: 5.75rem;
+  max-width: 200%;
+  min-width: 4rem;
+}
+.h1-span-wrap {
+  margin-bottom: 1.125rem;
+}
+span .l-space {
+  width: 20.625vw;
+  letter-spacing: 0;
+}
+.black-square h1 .span-l  {
+  font-size: 5vw;
+}
+.black-square h1 .span-l.l-space{
+  margin-bottom: 2.083333333333333vw;
+  letter-spacing: 0;
+}
+.black-square.black-sq-bg {
+  z-index: -5;
+  background: rgba(34, 34, 34, 1);
+}
+/*######################################################################
+
+main
+
+######################################################################*/
+
+
+/*######################################################################
+
+about-section
+
+######################################################################*/
+
+
+.about-sec {
+  display: flex;
+  width: 100%;
+  height: 37.805625rem;
+  margin-top: 6.118125rem;
+  justify-content: center;
+}
+.about-sec .about-sec-wrap {
+  display: flex;
+  width: 76.38888888888889%;
+  height: 37.9375rem;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(./img/skyline-4582510_1920.png);
+}
+.about-us-wrap {
+  width: 53.63636363636364%;
+  height: 24.1875rem;
+  margin-left: 3.125rem;
+  background-color: #ffffff;
+  opacity: 94.9%;
+}
+.about-sec .about-sec-wrap h2 {
+  display: inline-block;
+  text-align: left;
+  margin-left: 1.875rem;
+  font-family: 'Inter';
+  font-size: 2rem;
+  margin-top: 1.3125rem;
+  margin-bottom: 0;
+  line-height: 5.5625rem;
+}
+.about-sec .about-txt {
+  display: block;
+  width: 100%;
+  height: fit-content;
+}
+.about-sec .about-sec-wrap p {
+  display: inline-block;
+  width: 89.83050847457628%;
+  margin-top: 8px;
+  font-size: 1rem;
+  margin-left: 1.875rem;
+}
+/*=========================
+readmore-button
+=========================*/
+.about-sec .readmore-btn {
+  width: 10rem;
+  height: 2.25rem;
+  margin-top: 1.9375rem;
+  margin-left: 1.875rem;
+  background-color: #000000;
+}
+.about-sec .readmore-btn a{
+  display: block;
+  width: 10rem;
+  height: 2.25rem;
+}
+.about-sec .readmore-btn span {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 0.75rem;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2.20rem;
+}
+/*######################################################################
+
+worcul-section
+
+######################################################################*/
+.worcul-sec {
+  display: flex;
+  width: 100%;
+  height: 48.1875rem;
+  justify-content: center;
+  background-color: #f0f0f0;
+  margin-top: -6.25rem;
+}
+.worcul-sec-wrap {
+  display: flex;
+  width: 76.38888888888889%;
+  height: 31.5rem;
+  margin-top: 11.1875rem;
+  margin-bottom: 5.5rem;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.worcul-flex {
+  width: 100%;
+}
+.worcul-flex a {
+  width: 100%;
+  height: 100%;
+}
+.generic-h2 {
+  font-family: 'Inter';
+  font-size: 2rem;
+  font-weight: 400;
+}
+.worcul-sec-wrap a {
+  width: 47.27272727272727%;
+}
+.worcul-flex img {
+  height: auto;
+}
+.worcul-flex p {
+  font-family: 'Inter';
+  font-size: 1rem;
+  line-height: 5.25rem;
+  vertical-align: middle;
+}
+a.mgin-b {
+  width: 47.27272727272727%;
+  height: 31.5rem;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.l-topic-sec {
+  display: flex;
+  width: 100%;
+  height: 29.25rem;
+  justify-content: center;
+  margin-top: 5.9375rem
+}
+.l-topic-sec-wrap {
+  display: flex;
+  width: 76.38888888888889%;
+  height: 29.25rem;
+  justify-content: space-between;
+}
+.l-topic-sec .l-topic-sec-wrap h2 {
+  display: inline-block;
+  font-family: 'Inter';
+  font-size: 2rem;
+}
+.l-topic-flex {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  margin-left: 0;
+  flex-direction: column;
+  
+}
+.l-topic-flex span {
+  font-size: 0.625rem;
+  line-height: 2rem;
+  margin-top: 1.25rem;
+}
+.l-topic-flex a{
+  width: fit-content;
+  margin-left: 25rem;
+}
+.article-line {
+  width: 63.63636363636363%;
+  margin-left: 25rem;
+}
+/*######################################################################
+
+contact-section
+
+######################################################################*/
+.contact-sec {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 8rem;
+  background-color: #f2f2f2;
+}
+.contact-sec-wrap {
+  display: flex;
+  width: 79.16666666666666%;
+  height: 31.875rem;
+  margin-top: 3.75rem;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.contact-txt {
+  width: 27.5rem;
+  margin: 0;
+  margin-top: 2.9375rem;
+}
+.contact-img {
+  width: 50.877192982456144%;
+  height: 24.375rem;
+  margin: 0;
+}
+.contact-txt h2 {
+  margin: 0;
+  vertical-align: middle;
+  line-height: 2.9375rem;
+}
+.contact-txt p {
+  line-height:  2rem;
+}
+/*######################################################################
+
+footer
+
+######################################################################*/
+footer {
+  display: flex;
+  width: 100%;
+  height: 3.125rem;
+  background-color: #707070;
+}
+footer span {
+  color: #ffffff;
+  text-align: center;
+  line-height: 3.125rem;
+  vertical-align: middle;
+  font-size: 0.625rem;
+}
+}
+@media screen and (min-width: 899px) {
+  .black-square h1 .span-s {
+    font-size: 1.25rem;
+}
+.black-square h1 .span-s .l-space {
+  width: 7.125rem;
+  max-width: 200%;
+  min-width: 7.2125rem;
+}
+}
