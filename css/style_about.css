@@ -13,6 +13,9 @@ grobal
 a {
   cursor: pointer;
 }
+section {
+  background-color: #ffffff;
+}
 /*######################################################################
 GP 
 ######################################################################*/
@@ -369,7 +372,6 @@ vision-section
 .vision-sec {
   display: flex;
   width: 100%;
-  
   margin-top: 5.6875rem;
   justify-content: center;
 }
@@ -432,23 +434,25 @@ ceo-image
   min-height: 10rem;
   /*margin-bottom: -6rem;*/
   margin-left: -1.3125rem;
+  z-index: 2;
 }
 .ceo-img {
   max-width: 100%;
   height: auto;
   object-fit: cover;
+  z-index: 2;
 }
 .gray-mask {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  max-height: 100%;
+  width: 90.67150248013228vw;
+  max-height: 61.33660461891301vw;
   background-color: #707070;
   opacity: 0.78;
-  z-index: 2;
+  z-index: 3;
   filter: brightness(1.8314);
+  aspect-ratio: 90/61;
 }
 /*=========================
 ceo-text
@@ -467,14 +471,14 @@ ceo-text
   font-size: 0.875rem;
 }
 .ceo-txt {
-  width: 100%;
+  width: 83.4782608695652%;
   height: 49.9375rem;
   background-color: #f0f0f0;
 }
 .ceo-txt h2 {
   line-height: 2.4375rem;
   letter-spacing: 0.25rem;
-  margin-top: 1.4375rem;
+  margin-top: 7.1875rem;
   margin-bottom: 2.625rem;
 }
 /*######################################################################
@@ -731,22 +735,21 @@ ceo-image
 =========================*/
 .ceo-img-wrap {
   width: 20rem;
-  height: 13.5rem;
+  height: auto;
   margin-left: 0;
   z-index: 2;
+  aspect-ratio: 320 / 216;
 }
-.ceo-img {
-  height: 13.5rem;
-}
+
 .gray-mask {
-  height: 13.5rem;
+  width: 100%;
 }
 /*=========================
 ceo-text
 =========================*/
 .ceo-txt-wrap {
   display: flex;
-  width: 30.875rem;
+  width: 64.32459178624443%;
   height: 42.9375rem;
   margin-top: 8.1875rem;
   margin-left: -20.625rem;
@@ -756,7 +759,7 @@ ceo-text
   z-index: 1;
 }
 .ceo-txt {
-  width: 25.9375rem;
+  width: 84.008097165991902%;
   height: 26.9375rem;
   margin-top: 6.75rem;
 }

@@ -16,6 +16,9 @@ a {
 p {
   letter-spacing: 0.004em;
 }
+section {
+  background-color: #ffffff;
+}
 /*######################################################################
 GP 
 ######################################################################*/
@@ -58,6 +61,7 @@ header
   height: 22.8125rem;
   flex-direction: column;
   overflow-x: hidden;
+  background-color: #ffffff;
 }
 .header-top {
   width: 100%;
@@ -276,6 +280,7 @@ header-image-wrap
   width: 17.9375rem;
   height: 16.875rem;
   z-index: 0;
+  background-color: #ffffff;
 }
 .header-img source,.header-img img {
   width: 100%;
