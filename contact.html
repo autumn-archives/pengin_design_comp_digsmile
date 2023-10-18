@@ -6,14 +6,19 @@
       <meta name="robots" content="noindex , nofollow">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>DIGSMILE_デザインで人を笑顔にする会社_CONTACT</title>
-      <meta name="description" content="headerのコーディングです。" />
+      <meta name="description" content="DIGSMILE_デザインで人を笑顔にする会社_CONTACT" />
       <meta name="inputat-detection" content="telephone=no" />
       <link href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
       <link rel="stylesheet" href="./css/reset.css">
       <link rel="stylesheet" href="./css/style_contact.css">
+      <!--このサイトは、以下のサイト様のデザインカンプを元に制作しております。
+        合同会社PENGIN様 【デザインカンプ無料配布】未経験からのコーディング学習ステップ
+        https://pengi-n.co.jp/blog/coding-distribution/
+        素晴らしい教材を、無料で公開していただき誠にありがとうございました。
+      -->
     </head>
 <body>
-  <header class="header">
+    <header class="header">
   <div class="header-main">
     <div class="hamb-click-bg"></div>
     <div class="image-wrap">
@@ -24,30 +29,31 @@
         <source srcset="./img/photo-of-people-looking-on-tablet-3182835_T.png" media="(min-width: 374.98px)">
         <img src="./img/photo-of-people-looking-on-tablet-3182835_S.png" alt="サンプル画像">
       </picture>
-      <div class="header-logo-wrap"><img class="header-logo" src="./img/logo_icon.svg" alt="タイトルロゴ画像">DIGSMILE<span class="logo-sub">INC.</span></div>
+      <a href="./index.html"><div class="header-logo-wrap"><img class="header-logo" src="./img/logo_icon.svg">DIGSMILE<span class="logo-sub">INC.</span></div></a>
     </div>
     <div class="menu-hamb">
-        <div class="hamb-icon-wrap">
-          <div class="hamb-icon up first"></div>
-          <div class="hamb-icon mid first"></div>
-          <div class="hamb-icon bottom first"></div>
-        </div>
-        <span class="hamb-txt">MENU</span>
+      <div class="hamb-icon-wrap">
+        <div class="hamb-icon up first"></div>
+        <div class="hamb-icon mid first"></div>
+        <div class="hamb-icon bottom first"></div>
       </div>
+      <span class="hamb-txt">MENU</span>
+    </div>
     <div class="black-square">
-      <h1>
-        <span class="span-l">CONTACT</span>
-        <span class="span-s">お問い合わせ</span>
-      </h1>
+        <h1>
+          <span class="span-l">CONTACT</span>
+          <span class="span-s">お問い合わせ</span>
+        </h1>
     </div>
     <div class="black-square black-sq-bg"></div>
          <nav class="header-nav first">
           <ul class="header-list">
-              <a class="a-nav-img" href=""><img class="nav-img" src="./img/logo_icon.svg" alt="タイトルロゴ画像"></a>
-              <li class="header-item"><a href="">About</a></li>
-              <li class="header-item"><a href="">Service</a></li>
-              <li class="header-item"><a href="">News</a></li>
-              <li class="header-item"><a href="">Contact</a></li> 
+              <a class="a-nav-img" href="./index.html"><img class="nav-img" src="./img/logo_icon.svg"></a>
+              <li class="header-item"><a href="./about_us.html">About</a></li>
+              <li class="header-item"><a href="#">Service</a></li>
+              <li class="header-item"><a href="#">News</a></li>
+              <li class="header-item"><a href="./contact.html">Contact</a></li>
+          </ul>
         </nav>
   </div>
 
@@ -73,9 +79,9 @@
         <p>電話番号<span>必須</span></p>
         <input class="s-form" type="text">
         <p>お問い合わせ内容<span>必須</span></p>
-        <input class="l-form" type="text">
+        <textarea class="l-form" type="text"></textarea>
         <p>PRIVACY POLICY</p>
-        <div class="privacy-wrap">
+        <div class="privacy-wrap scrollbar">
           <div class="privacy-txt">
             <p>個人情報保護方針</p>
             <p>株式会社DIGSMILE（以下、当社）では、個人情報の重要性を認識し、以下の基準に従って、適切な管理、保護に努めます。</p>
@@ -118,6 +124,6 @@
   <footer>
     <p><span>©2018 DIGSMILE INC.</span></p>
   </footer>
-  <script type="text/javascript" src="./js/main.js"></script>
 </body>
+<script type="text/javascript" src="./js/main.js"></script>
 </html>
